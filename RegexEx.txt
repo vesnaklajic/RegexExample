@@ -1,0 +1,52 @@
+﻿REGEX
+https://regex101.com/
+
+
+Adresse:
+12313 Allee de la Nation 93150 Le Blanc. Mensil 
+1424 rue General Charles de Gaulle 75002 Paris
+78687avenue General - Leclerc 96700 Montreuille
+
+^\d+\s(rue|Rue|avenue|av|Avenue|Allee|allee)([a-zA-Z-\.\s]+)\d{1,5}([\sa-zA-Z-\.]+)
+
+Email:
+richard.dupont@gmail.com
+charlesBonmati17@hotmail.com
+Ronald_Mc_Donald@macdo.biz.fr
+contact@societe.dev.inf
+
+^([a-zA-Z])+(\.|\w-\d)*@(\w)+(\.|\w)*
+
+
+Téléphone:
+(33) 754774149
++33345987652
+(+33)118734220
+0033 641542349
+07.98.65.11.49
+06 33 54 23 81
+
+(\(?\+?)(\d\)?\s?\.?)+
+
+
+Nom/Prenom:
+S. Michel York
+Jean Charles Lymos
+Jean-Marie Vogel 
+Crisstine St. Blancet
+Frenck De Cognac
+M.
+LOT
+BOND James Bond
+
+^[A-Z][\s\w-?\.?]*
+
+IBAN:
+FR 99 002 089 767 789 2
+SR 99 765 456 897 908 1
+
+^[A-Z]{2}\s[9]{2}\s([0-9]{3}\s){4}(1|2)
+
+
+
+
